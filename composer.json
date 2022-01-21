@@ -1,0 +1,30 @@
+{
+    "name": "chandachewe/analytics",
+    "type": "webanalytics",
+    "description": "web analytics to view the total number of people who visited your website in a specific month",
+    "keywords": [
+        "web analytics",
+        "ipv4",
+        "country code",
+        "country region",
+        "zip code",
+        "latitude",
+        "longitude"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "authors": [
+        {
+            "name": "Chanda Chewe",
+            "email": "chewec03@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ChandaChewe\\Webanalytics\\": "src/"
+         
+        }
+    }
+}
