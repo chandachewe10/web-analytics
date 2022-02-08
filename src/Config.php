@@ -15,7 +15,7 @@ require 'Db.php';
 ),
 );
  $IP_TRACKED = curl_exec($IP);
- $cloneUrl = curl_close($IP);
+ $closeUrl = curl_close($IP);
  $ipDataObject=json_decode($IP_TRACKED,true);
 
 
